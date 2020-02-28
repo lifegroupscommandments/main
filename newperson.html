@@ -13,7 +13,14 @@
 </div>
 <h1>What's your Name?</h1>
 <br>
-<input type="text" style="font-family:'Lato';font-size:30px;text-align:center;width:80%" placeholder="Pastor Steven">
+<input type="text" style="font-family:'Lato';font-size:30px;text-align:center;width:80%" placeholder="Pastor Steven" id="input">
+<button onclick="">Submit</button>
+<script>
+  function submit(){
+  localStorage.setItem("name",document.getElementById("input").value);
+  window.location = "";
+  }
+</script>
 </center>
 </body>
 </html>
