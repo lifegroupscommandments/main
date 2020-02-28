@@ -2,13 +2,15 @@
 padding:15px;
 background-image: linear-gradient(to bottom right, rgb(239,92,82), rgb(247, 159, 82));
 color:white;
-font-size:25px;
+font-size:35px;
 font-family: 'Lato';
 }
 h1{
+font-size:25px;
 font-family: 'Lato';
 }
 p{
+font-size:15px;
 font-family: 'Lato';
 }
 .floating{
