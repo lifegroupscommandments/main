@@ -8,7 +8,7 @@
 <script>
   function beginning(){
   if(localStorage.getItem("name")){
-     
+     document.getElementById("namer").innerHTML = "Hello "+localStorage.getItem("name")+"! Nice to have you back.";
      }else{
      window.location = "newperson.html";
      }
@@ -20,6 +20,7 @@
 <img src="logo.png" class="floating" width="30%">
 <h1>Life Group Commandments</h1>
 </div>
+<h1 style="font-size:30px;" id="namer"></h1>
 <h1>Participation</h1>
 <p>I will both contribute and listen during life group's meeting times</p>
 <h1>Preparation</h1>
