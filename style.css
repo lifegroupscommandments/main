@@ -11,3 +11,10 @@ font-family: 'Lato';
 p{
 font-family: 'Lato';
 }
+.floating{
+transition: 1s;
+}
+.floating:hover{
+box-shadow: 7px, 7px, coral;
+transition: 1s;
+}
